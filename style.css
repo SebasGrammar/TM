@@ -191,3 +191,29 @@ form {
 textarea {
     resize: none;
 }
+
+/* RESTRURED FOOTER */
+
+footer {
+    /* display: flex;
+    flex-direction: column; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    
+}
+
+.x-column {
+    display: flex;
+    align-items: flex-start;
+}
+
+.x-column img {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.row {
+    width: 100%;
+}
